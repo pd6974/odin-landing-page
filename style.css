@@ -20,6 +20,10 @@
     padding: 8px;
 }
 
+.logo {
+    height: 100px;
+}
+
 ul {
     list-style: none;
     display: flex;
@@ -53,11 +57,29 @@ a, .main {
     margin: 32px;
 }
 
-img {
+.intro-img {
     height: 400px;
     margin: 32px;
 }
 
+.pictures {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 12px;
+}
+
+.pictures-text {
+    font-size: 36px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    margin: 18px;
+}
+
+img {
+    height: 200px;
+    margin: 12px;
+}
 
 .pictures {
     background-color: aqua;
