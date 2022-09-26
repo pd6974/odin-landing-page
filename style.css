@@ -167,10 +167,21 @@ a, .main {
 
 button {
     align-self: center;
-    
+    background-color: #3882f6;
+    padding: 6px 24px;
+    border-radius: 4px;
+    border-color: #f9faf8;
+    border-style: solid;
+    color: #f9faf8;
+    font-weight: 600;
 }
 
 .footer {
     background-color: #1f2937;
     color: #f9faf8;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
 }
