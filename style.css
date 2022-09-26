@@ -149,19 +149,28 @@ a, .main {
     background-color: #3882f6;
     display: flex;
     align-self: center;
-    flex-direction: column;
+    justify-content: space-around;
     height: 175px;
     width:  850px;
     border-radius: 18px;
+}
+
+.action-text {
+    display: flex;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 700;
     font-family: Arial, Helvetica, sans-serif;
+    width: 400px;
+    flex-wrap: wrap;
+    align-self: center;
 }
 
 button {
-    align-self: flex-end;
+    align-self: center;
+    
 }
 
 .footer {
     background-color: #1f2937;
+    color: #f9faf8;
 }
